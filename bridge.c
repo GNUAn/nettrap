@@ -26,6 +26,14 @@ void bridge(int money)
 	    putchar(c);
 	  break;
 	}
+      if (strcmp(adr, "list") == 0)
+	{
+	  printf("shop, exit, list\n");
+	}
+      else
+	{
+	  printf("\007%s - unknown address, please, type \"list\" to get list of available addresses\n", adr);
+	}
       printf("Last input:%s\n", adr);
     }
 }
