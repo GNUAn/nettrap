@@ -1,5 +1,5 @@
 Author:
-GnuAn
+AnatoliyL
 
 Contributors:
 None at the moment
