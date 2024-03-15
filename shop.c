@@ -68,3 +68,8 @@ void ask(void)
   printf("Are you sure?\n");
   getchar();
 }
+int main(int argc, char **argv)
+{
+  shop(atoi(argv[1]));
+  return 0;
+}
