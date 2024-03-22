@@ -10,7 +10,7 @@ void sell(int money, char **inventory)
     {
       printf("Hello! What do you want to sell?\n");
       fgets(buf, 1024, stdin);
-      buf[strlen(buf) - 1] = '\0';
+      buf[strlen(buf) - 1] = '\0'
       if (strcmp(buf, "exit") == 0)
 	{
 	  printf("Come back again!\nExiting sell.site...\n");

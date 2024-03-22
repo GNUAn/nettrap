@@ -1,8 +1,0 @@
-Author:
-AnatoliyL
-
-Contributors:
-None at the moment
-
-License:
-GNU GPL v3-or-later

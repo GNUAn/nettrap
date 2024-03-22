@@ -33,7 +33,7 @@ void shop(int money, char **inventory)
 	  money-=15;
 	  for (int i = 0; i < 64; i++)
 	    {
-	      if (strcmp(inventory[i], "\0") == 0)
+	      if (strcmp(inventory, "\0") == 0)
 		{
 		  empty = i;
 		  break;
@@ -48,7 +48,7 @@ void shop(int money, char **inventory)
 	  money-=20;
 	  for (int i = 0; i < 64; i++)
 	    {
-	      if (strcmp(inventory[i], "\0") == 0)
+	      if (strcmp(inventory, "\0") == 0)
 		{
 		  empty = i;
 		  break;
